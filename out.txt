@@ -1,0 +1,113 @@
+Last metadata expiration check: 0:05:43 ago on Sat 05 Oct 2024 05:25:35 PM EDT.
+Dependencies resolved.
+===============================================================================================
+ Package                                Arch    Version                          Repo      Size
+===============================================================================================
+Installing:
+ fedpkg                                 noarch  1.45-5.fc40                      updates  115 k
+Installing dependencies:
+ ansible-srpm-macros                    noarch  1-14.fc40                        fedora    21 k
+ bodhi-client                           noarch  8.1.0-1.fc40                     updates   90 k
+ createrepo_c                           x86_64  1.1.4-1.fc40                     updates   78 k
+ createrepo_c-libs                      x86_64  1.1.4-1.fc40                     updates  111 k
+ dash                                   x86_64  0.5.12-3.fc40                    fedora    98 k
+ debugedit                              x86_64  5.0-14.fc40                      fedora    79 k
+ devscripts-checkbashisms               noarch  2.23.7-3.fc40                    fedora    28 k
+ drpm                                   x86_64  0.5.2-5.fc40                     fedora    64 k
+ dwz                                    x86_64  0.15-6.fc40                      fedora   138 k
+ ed                                     x86_64  1.20.2-1.fc40                    updates   82 k
+ efi-srpm-macros                        noarch  5-11.fc40                        fedora    22 k
+ fakeroot                               x86_64  1.36-1.fc40                      updates  100 k
+ fakeroot-libs                          x86_64  1.36-1.fc40                      updates   39 k
+ fonts-srpm-macros                      noarch  1:2.0.5-14.fc40                  fedora    27 k
+ forge-srpm-macros                      noarch  0.3.2-1.fc40                     updates   20 k
+ fpc-srpm-macros                        noarch  1.3-12.fc40                      fedora   7.8 k
+ ghc-srpm-macros                        noarch  1.9.1-1.fc40                     updates  8.9 k
+ gnat-srpm-macros                       noarch  6-5.fc40                         fedora   8.8 k
+ go-srpm-macros                         noarch  3.5.0-1.fc40                     fedora    28 k
+ kernel-srpm-macros                     noarch  1.0-23.fc40                      fedora   9.7 k
+ koji                                   noarch  1.35.0-1.fc40                    updates  262 k
+ krb5-pkinit                            x86_64  1.21.3-1.fc40                    updates   61 k
+ krb5-workstation                       x86_64  1.21.3-1.fc40                    updates  421 k
+ libappstream-glib                      x86_64  0.8.3-1.fc40                     updates  405 k
+ libdnf5                                x86_64  5.1.17-2.fc40                    updates  999 k
+ libdnf5-cli                            x86_64  5.1.17-2.fc40                    updates  231 k
+ libgit2                                x86_64  1.7.2-4.fc40                     updates  543 k
+ libkadm5                               x86_64  1.21.3-1.fc40                    updates   76 k
+ llhttp                                 x86_64  9.2.1-1.fc40                     updates   33 k
+ lua-srpm-macros                        noarch  1-13.fc40                        fedora   8.7 k
+ mock                                   noarch  5.6-1.fc40                       updates  287 k
+ mock-core-configs                      noarch  41.2-1.fc40                      updates  154 k
+ mock-filesystem                        noarch  5.6-1.fc40                       updates   19 k
+ ocaml-srpm-macros                      noarch  9-3.fc40                         fedora   9.1 k
+ openblas-srpm-macros                   noarch  2-16.fc40                        fedora   7.5 k
+ package-notes-srpm-macros              noarch  0.5-11.fc40                      fedora   9.9 k
+ patch                                  x86_64  2.7.6-24.fc40                    fedora   131 k
+ perl-srpm-macros                       noarch  1-53.fc40                        fedora   8.4 k
+ pyproject-srpm-macros                  noarch  1.15.0-1.fc40                    updates   14 k
+ python-srpm-macros                     noarch  3.12-8.fc40                      updates   23 k
+ python3-GitPython                      noarch  3.1.40-4.fc40                    fedora   382 k
+ python3-authlib                        noarch  1.3.1-1.fc40                     updates  476 k
+ python3-babel                          noarch  2.16.0-1.fc40                    updates  6.5 M
+ python3-backoff                        noarch  2.2.1-6.fc40                     fedora    42 k
+ python3-bugzilla                       noarch  3.3.0-1.fc40                     updates  136 k
+ python3-cccolutils                     x86_64  1.5-27.fc40                      fedora    21 k
+ python3-click-plugins                  noarch  1.1.1-19.fc40                    fedora    17 k
+ python3-construct                      noarch  2.10.70-3.fc40                   fedora   152 k
+ python3-decorator                      noarch  5.1.1-9.fc40                     fedora    31 k
+ python3-defusedxml                     noarch  0.7.1-12.fc40                    fedora    59 k
+ python3-gitdb                          noarch  4.0.10-5.fc40                    fedora   142 k
+ python3-gssapi                         x86_64  1.7.3-8.fc40                     fedora   656 k
+ python3-jinja2                         noarch  3.1.4-1.fc40                     updates  485 k
+ python3-koji                           noarch  1.35.0-1.fc40                    updates  425 k
+ python3-krb5                           x86_64  0.5.1-4.fc40                     fedora   500 k
+ python3-libmodulemd                    x86_64  2.15.0-12.fc40                   updates   14 k
+ python3-munch                          noarch  2.5.0-15.fc40                    fedora    26 k
+ python3-openidc-client                 noarch  0.6.0-22.20220119git0e2ed81.fc40 fedora    27 k
+ python3-progressbar2                   noarch  3.53.2-11.fc40                   fedora    72 k
+ python3-pybeam                         noarch  0.8-2.fc40                       updates   31 k
+ python3-pycurl                         x86_64  7.45.2-10.fc40                   fedora   150 k
+ python3-pygit2                         x86_64  1.14.0-1.fc40                    fedora   286 k
+ python3-pyroute2                       noarch  0.7.3-5.fc40                     fedora   986 k
+ python3-requests-gssapi                noarch  1.2.3-11.fc40                    fedora    32 k
+ python3-requests-kerberos              noarch  0.14.0-3.fc40                    fedora    27 k
+ python3-rpkg                           noarch  1.67-4.fc40                      updates  238 k
+ python3-rpmautospec                    noarch  0.7.2-1.fc40                     updates   74 k
+ python3-rpmautospec-core               noarch  0.1.5-1.fc40                     updates   15 k
+ python3-smmap                          noarch  5.0.0-8.fc40                     fedora    62 k
+ python3-spnego                         noarch  0.10.2-1.fc40                    fedora   277 k
+ python3-spnego+kerberos                noarch  0.10.2-1.fc40                    fedora   9.2 k
+ python3-templated-dictionary           noarch  1.5-1.fc40                       updates   20 k
+ python3-tomli-w                        noarch  1.0.0-11.fc40                    fedora    21 k
+ python3-typing-extensions              noarch  4.12.2-2.fc40                    updates   89 k
+ python3-utils                          noarch  3.7.0-3.fc40                     fedora    69 k
+ python3-zstandard                      x86_64  0.22.0-3.fc40                    fedora   483 k
+ qt5-srpm-macros                        noarch  5.15.15-1.fc40                   updates  8.9 k
+ qt6-srpm-macros                        noarch  6.7.2-2.fc40                     updates  9.0 k
+ redhat-rpm-config                      noarch  288-1.fc40                       updates   82 k
+ rpkg-common                            noarch  1.67-4.fc40                      updates   19 k
+ rpm-build                              x86_64  4.19.1.1-1.fc40                  fedora    78 k
+ rpmautospec                            noarch  0.7.2-1.fc40                     updates   15 k
+ rpmdevtools                            noarch  9.6-7.fc40                       fedora    96 k
+ rpmlint                                noarch  2.5.0-5.fc40                     fedora   342 k
+ rpmlint-fedora-license-data            noarch  1.57-1.fc40                      updates   37 k
+ rpmlint-fedora-license-data-legacy     noarch  1.57-1.fc40                      updates   35 k
+ rust-srpm-macros                       noarch  26.3-1.fc40                      updates   13 k
+ sdbus-cpp                              x86_64  1.4.0-2.fc40                     fedora   110 k
+ systemd-rpm-macros                     noarch  255.12-1.fc40                    updates   30 k
+ zig-srpm-macros                        noarch  1-2.fc40                         fedora   8.0 k
+ zstd                                   x86_64  1.5.6-1.fc40                     updates  479 k
+Installing weak dependencies:
+ dnf-utils                              noarch  4.9.0-1.fc40                     updates   37 k
+ dnf5                                   x86_64  5.1.17-2.fc40                    updates  700 k
+ dnf5-plugins                           x86_64  5.1.17-2.fc40                    updates  358 k
+ fedora-packager                        noarch  0.6.0.7-9.fc40                   fedora    27 k
+ fedora-packager-kerberos               noarch  0.6.0.7-9.fc40                   fedora    24 k
+
+Transaction Summary
+===============================================================================================
+Install  97 Packages
+
+Total download size: 20 M
+Installed size: 75 M
+Is this ok [y/N]: 

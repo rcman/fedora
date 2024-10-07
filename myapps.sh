@@ -6,7 +6,16 @@ sudo dnf builddep kernel.spec
 sudo apt install libncurses-devel -y
 sudo yum install gawk -y
 sudo yum install flex -y 
-bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf llvm
+bison openssl libssl-devel -y 
+sudo yum dkms -y 
+sudo yum install libelf-devel -y 
+sudo yum install libudev-devel -y 
+sudo sum install libpci-devel -y 
+sudo yum install libiberty-devel 
+sudo yum install autoconf -y
+sudo yum install llvm -y
+sudo yum install dwarves -y
+sudo yum install cmake -y
 sudo yum install vim -y
 sudo yum install neofetch -y
 sudo yum install htop -y

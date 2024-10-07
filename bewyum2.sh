@@ -98,4 +98,27 @@ sudo yum install dnf5-plugins
 sudo yum install fedora-packager
 sudo yum install fedora-packager-kerberos
 sudo yum install build-essential
+sudo yum install git -y
+sudo yum install fakeroot  -y
+sudo yum install build-essential  -y
+sudo yum install ncurses-devel  -y
+sudo yum install libncurses-devel -y
+sudo yum install xz-utils  -y
+sudo yum install libssl-devel  -y
+sudo yum install dkms -y
+sudo yum install libpci-devel -y
+sudo yum install libiberty-devel -y
+sudo yum install libssl-devel -y
+sudo yum install autoconf -y
+sudo yum install llvm -y
+sudo yum install bc  -y
+sudo yum install flex  -y
+sudo yum install libelf-devel  -y
+sudo yum install bison  -y
+sudo yum install mc  -y
+sudo yum install tree  -y
+sudo yum install vim  -y
+sudo yum install curl  -y
+sudo yum install ncurses-devel -y
+sudo yum install dwarves -y
 

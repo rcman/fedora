@@ -1,9 +1,15 @@
+#!/bin/bash
+
 sudo dnf install fedpkg
 fedpkg clone -a kernel
 cd kernel
 sudo dnf builddep kernel.spec
 sudo yum install kernel-devel -y
 sudo apt install libncurses-devel -y
+sudo dnf install make -y 
+sudo yum install automake -y
+sudo yum install gcc -y
+sudo yum install gcc-c++ -y
 sudo yum install gawk -y
 sudo yum install flex -y 
 bison openssl libssl-devel -y 

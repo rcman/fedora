@@ -2,13 +2,13 @@ sudo dnf install fedpkg
 fedpkg clone -a kernel
 cd kernel
 sudo dnf builddep kernel.spec
-
+sudo yum install kernel-devel -y
 sudo apt install libncurses-devel -y
 sudo yum install gawk -y
 sudo yum install flex -y 
 bison openssl libssl-devel -y 
 sudo yum dkms -y 
-sudo yum install libelf-devel -y 
+sudo yum install elfutils-devel -y 
 sudo yum install libudev-devel -y 
 sudo sum install libpci-devel -y 
 sudo yum install libiberty-devel 

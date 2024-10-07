@@ -6,7 +6,7 @@ fedpkg clone -a kernel
 cd kernel
 sudo dnf builddep kernel.spec
 sudo yum install kernel-devel -y
-sudo apt install libncurses-devel -y
+sudo yum install libncurses-devel -y
 sudo dnf install make -y 
 sudo yum install automake -y
 sudo yum install gcc -y
@@ -52,4 +52,5 @@ sudo dnf install clamav clamd clamav-update
 sudo systemctl stop clamav-freshclam
 sudo freshclam
 sudo systemctl enable clamav-freshclam --now
+sudo yum clean all
 

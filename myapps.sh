@@ -5,37 +5,37 @@ sudo dnf install fedpkg -y
 fedpkg clone -a kernel
 cd kernel
 sudo dnf builddep kernel.spec
-sudo yum install kernel-devel -y
-sudo yum install libncurses-devel -y
+sudo dnf install kernel-devel -y
+sudo dnf install libncurses-devel -y
 sudo dnf install make -y 
-sudo yum install automake -y
-sudo yum install gcc -y
-sudo yum install gcc-c++ -y
-sudo yum install gawk -y
-sudo yum install flex -y 
+sudo dnf install automake -y
+sudo dnf install gcc -y
+sudo dnf install gcc-c++ -y
+sudo dnf install gawk -y
+sudo dnf install flex -y 
 bison openssl libssl-devel -y 
-sudo yum dkms -y 
-sudo yum install elfutils-devel -y 
-sudo yum install libudev-devel -y 
+sudo dnf dkms -y 
+sudo dnf install elfutils-devel -y 
+sudo dnf install libudev-devel -y 
 sudo sum install libpci-devel -y 
-sudo yum install libiberty-devel 
-sudo yum install autoconf -y
-sudo yum install llvm -y
-sudo yum install dwarves -y
-sudo yum install lz4 -y
-sudo yum install lzma -y
-sudo yum install lzma-alone -y
-sudo yum install openssl -y
-sudo yum install uuid -y
-sudo yum install cmake -y
-sudo yum install vim -y
-sudo yum install neofetch -y
-sudo yum install htop -y
-sudo yum install tree -y
-sudo yum install mc -y
-sudo yum install gparted -y
-sudo yum install vim -y
-sudo yum install mesa-utils -y
+sudo dnf install libiberty-devel 
+sudo dnf install autoconf -y
+sudo dnf install llvm -y
+sudo dnf install dwarves -y
+sudo dnf install lz4 -y
+sudo dnf install lzma -y
+sudo dnf install lzma-alone -y
+sudo dnf install openssl -y
+sudo dnf install uuid -y
+sudo dnf install cmake -y
+sudo dnf install vim -y
+sudo dnf install neofetch -y
+sudo dnf install htop -y
+sudo dnf install tree -y
+sudo dnf install mc -y
+sudo dnf install gparted -y
+sudo dnf install vim -y
+sudo dnf install mesa-utils -y
 
 sudo dnf install firewalld -y
 sudo systemctl start firewalld
@@ -52,5 +52,5 @@ sudo dnf install clamav clamd clamav-update
 sudo systemctl stop clamav-freshclam
 sudo freshclam
 sudo systemctl enable clamav-freshclam --now
-sudo yum clean all
+sudo dnf clean all
 

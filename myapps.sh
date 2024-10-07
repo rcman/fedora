@@ -3,7 +3,10 @@ fedpkg clone -a kernel
 cd kernel
 sudo dnf builddep kernel.spec
 
-
+sudo apt install libncurses-devel -y
+sudo yum install gawk -y
+sudo yum install flex -y 
+bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf llvm
 sudo yum install vim -y
 sudo yum install neofetch -y
 sudo yum install htop -y

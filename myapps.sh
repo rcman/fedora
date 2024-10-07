@@ -5,6 +5,7 @@ sudo dnf install fedpkg -y
 fedpkg clone -a kernel
 cd kernel
 sudo dnf builddep kernel.spec
+
 sudo dnf install kernel-devel -y
 sudo dnf install libncurses-devel -y
 sudo dnf install make -y 

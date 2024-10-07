@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo dnf install fedpkg
+cd ~
+sudo dnf install fedpkg -y
 fedpkg clone -a kernel
 cd kernel
 sudo dnf builddep kernel.spec

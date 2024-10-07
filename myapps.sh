@@ -10,6 +10,14 @@ sudo dnf install kernel-devel -y
 sudo dnf install libncurses-devel -y
 sudo dnf install make -y 
 sudo dnf install automake -y
+sudo dnf install autoconf -y
+sudo dnf install llvm -y
+sudo dnf install xz-utils -y
+sudo dnf install bison -y
+sudo dnf install curl -y
+sudo dnf install gawk -y
+sudo dnf install cpio -y
+sudo dnf install swig -y
 sudo dnf install gcc -y
 sudo dnf install gcc-c++ -y
 sudo dnf install gawk -y

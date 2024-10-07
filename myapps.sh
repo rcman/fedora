@@ -15,6 +15,11 @@ sudo yum install libiberty-devel
 sudo yum install autoconf -y
 sudo yum install llvm -y
 sudo yum install dwarves -y
+sudo yum install lz4 -y
+sudo yum install lzma -y
+sudo yum install lzma-alone -y
+sudo yum install openssl -y
+sudo yum install uuid -y
 sudo yum install cmake -y
 sudo yum install vim -y
 sudo yum install neofetch -y

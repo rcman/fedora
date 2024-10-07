@@ -1,3 +1,9 @@
+sudo dnf install fedpkg
+fedpkg clone -a kernel
+cd kernel
+sudo dnf builddep kernel.spec
+
+
 sudo yum install vim -y
 sudo yum install neofetch -y
 sudo yum install htop -y

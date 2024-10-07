@@ -97,4 +97,5 @@ sudo yum install dnf5
 sudo yum install dnf5-plugins
 sudo yum install fedora-packager
 sudo yum install fedora-packager-kerberos
-sudo yum install 
+sudo yum install build-essential
+

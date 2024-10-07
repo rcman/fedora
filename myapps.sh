@@ -18,3 +18,8 @@ sudo dnf install openssh-server
 sudo systemctl enable sshd
 sudo systemctl start sshd
 sudo firewall-cmd --zone=public --permanent --add-port=22/tcp
+sudo dnf install clamav clamd clamav-update
+sudo systemctl stop clamav-freshclam
+sudo freshclam
+sudo systemctl enable clamav-freshclam --now
+

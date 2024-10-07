@@ -14,7 +14,9 @@ sudo dnf install gcc -y
 sudo dnf install gcc-c++ -y
 sudo dnf install gawk -y
 sudo dnf install flex -y 
-bison openssl libssl-devel -y 
+sudo dnf install bison -y 
+sudo dnf install libssl-devel -y 
+sudo dnf install bc
 sudo dnf dkms -y 
 sudo dnf install elfutils-devel -y 
 sudo dnf install libudev-devel -y 

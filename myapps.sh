@@ -24,12 +24,12 @@ sudo dnf install gawk -y
 sudo dnf install flex -y 
 sudo dnf install bison -y 
 sudo dnf install libssl-devel -y 
-sudo dnf install bc
+sudo dnf install bc -y
 sudo dnf dkms -y 
 sudo dnf install elfutils-devel -y 
 sudo dnf install libudev-devel -y 
 sudo sum install libpci-devel -y 
-sudo dnf install libiberty-devel 
+sudo dnf install libiberty-devel -y 
 sudo dnf install autoconf -y
 sudo dnf install llvm -y
 sudo dnf install dwarves -y
@@ -55,7 +55,7 @@ sudo echo "net.ipv6.conf.all.disable_ipv6 = 1" >> /etc/sysctl.conf
 sudo echo "net.ipv6.conf.default.disable_ipv6 = 1"  >> /etc/sysctl.conf
 sudo echo "net.ipv6.conf.lo.disable_ipv6 = 1" >> /etc/sysctl.conf
 sudo firewall-cmd --get-services
-sudo dnf install openssh-server
+sudo dnf install openssh-server -y
 sudo systemctl enable sshd
 sudo systemctl start sshd
 sudo firewall-cmd --zone=public --permanent --add-port=22/tcp

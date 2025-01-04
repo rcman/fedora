@@ -1,0 +1,7 @@
+# SDL2 Install
+sudo dnf install SDL2-devel.x86_64
+sudo dnf install SDL2_sound-devel.x86_64
+sudo dnf install SDL2_sound.x86_64
+sudo dnf install SDL2_image.x86_64
+sudo dnf install SDL2_mixer.x86_64
+

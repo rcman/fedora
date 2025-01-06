@@ -1,0 +1,8 @@
+To find out what desktop you're running
+
+  env | grep -i gdmsession
+
+
+  To list available desktops
+
+  dnf environment list --available | grep desktop

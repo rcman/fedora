@@ -1,0 +1,6 @@
+how to install gnome
+
+
+sudo dnf group list --hidden | grep -Ei "gnome|workstation":
+sudo dnf install @GNOME
+

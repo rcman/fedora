@@ -61,6 +61,6 @@ alias al='sudo tail -f /var/log/syslog'
 alias rs='sudo systemctl restart smbd.service'
 alias rs2='sudo systemctl restart nmbd.service'
 alias c='cd /media/franco/40cab057-0de8-4f68-9d51-1b6ca85188ff'
-alias up='cd /home/franco/linuxapps/ && ./up.sh'
-alias mkd='source /home/franco/linuxapps/mk.sh'
+alias up='cd /home/franco/fedora/ && ./up.sh'
+alias mkd='source /home/franco/fedora/mk.sh'
 

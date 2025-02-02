@@ -1,0 +1,35 @@
+sudo dnf -y install xrdp tigervnc-server 
+sudo systemctl enable --now xrdp 
+firewall-cmd --add-port=3389/tcp
+firewall-cmd --runtime-to-permanent
+
+3] 	Login as a user and configure Desktop session on Xrdp.
+[fedora@dlp ~]$ vi ~/startwm.sh
+# create new
+
+#!/bin/sh
+
+# GNOME
+dbus-launch --exit-with-session /usr/bin/gnome-session
+# GNOME Classic
+# env GNOME_SHELL_SESSION_MODE=classic dbus-launch --exit-with-session /usr/bin/gnome-session
+# KDE
+# dbus-launch --exit-with-session /usr/bin/startplasma-wayland
+# Cinnamon
+# dbus-launch --exit-with-session /usr/bin/cinnamon-session
+# MATE
+# dbus-launch --exit-with-session /usr/bin/mate-session
+# Xfce
+# dbus-launch --exit-with-session /usr/bin/startxfce4
+# LXDE
+# dbus-launch --exit-with-session /usr/bin/startlxde
+# LXQt
+# dbus-launch --exit-with-session /usr/bin/startlxqt
+# Budgie
+# env GNOME_SHELL_SESSION_MODE=Budgie:GNOME dbus-launch --exit-with-session /usr/bin/budgie-desktop
+# Sugar
+# dbus-launch --exit-with-session /usr/bin/sugar
+
+[fedora@dlp ~]$ chmod 755 ~/startwm.sh 
+
+
